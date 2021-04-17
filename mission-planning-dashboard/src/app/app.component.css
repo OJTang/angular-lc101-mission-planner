@@ -1,0 +1,6 @@
+.box {
+    border: outset 3px orangered;
+    display: flex;
+    padding: 10px;
+    justify-content: center;
+}
