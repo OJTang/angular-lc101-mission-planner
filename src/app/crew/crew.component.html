@@ -16,8 +16,8 @@
   </li>
 </ul>
 
-<input #name type="text"/>
+<input #name (keyup.enter)="add(name.value, firstMission.checked); name.value = '';" type="text"/>
 &nbsp; <label>First mission
   <input #firstMission type="checkbox"/>
 </label> &nbsp;
-<button (click)="add(name.value, firstMission.checked)">Add</button>
+<button (click)="add(name.value, firstMission.checked); name.value = '';">Add</button>
