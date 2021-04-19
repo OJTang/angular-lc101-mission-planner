@@ -23,4 +23,8 @@ h3 {
     color: cyan;
 }
 
+div {
+    color: limegreen;
+}
+
 /* Add a 'selected' class here to style selected astronaut names a different color. */

@@ -21,6 +21,18 @@ h3 {
     color: red;
 }
 
+#cargo {
+    color: goldenrod
+}
+
+.displayBox {
+    color: goldenrod
+}
+
+#empty {
+    color: royalblue
+}
+
 /* Add an 'active' class to style the background of the 'Add to Cargo Hold' buttons. */
 
 
